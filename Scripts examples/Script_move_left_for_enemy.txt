@@ -1,0 +1,5 @@
+///scr_move_left()
+hspd=-3;
+if (!place_meeting(x-sprite_width/3,y,Obj_Platform_tree))  {sprite_index=spr_GZ_o; x+=hspd}
+if (place_meeting(x-sprite_width/3,y,Obj_Platform_tree)) || (place_meeting(x-sprite_width/3,y+16,obj_Lest)) || (place_empty(x-sprite_width/3,y+16)) || (place_meeting(x+sprite_width/3,y+16,obj_brick)) {state=scr_move_right;}
+

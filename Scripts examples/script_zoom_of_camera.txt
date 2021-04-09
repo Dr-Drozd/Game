@@ -1,0 +1,9 @@
+obj_trava.depth=-200
+obj_d_z.depth=-191
+
+if view_wview != 400 {
+ view_wview =view_wview - 5; 
+ view_hview = view_hview - 5;
+ view_hborder = view_wview div 2;
+ view_vborder = view_hview div 2;
+} else {room_goto(komnata)}
