@@ -1,0 +1,5 @@
+hspd=-1
+x+=hspd
+if x<room_width {
+sound_stop(sou_sss)
+}
